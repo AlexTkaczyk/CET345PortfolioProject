@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
-public class Doggo_movement : MonoBehaviour
+public class Monty_movement : MonoBehaviour
 {
     public Vector3 m_move;
     public float m_speed = 5f;
