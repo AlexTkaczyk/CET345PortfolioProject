@@ -27,7 +27,7 @@ public class Parallax_scroll : MonoBehaviour
         {
             start_pos += sprite_length;
         }
-        else if (temp <start_pos - sprite_length)
+        else if (temp < start_pos - sprite_length)
         {
             start_pos -= sprite_length;
         }
