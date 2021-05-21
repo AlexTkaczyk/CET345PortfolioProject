@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChestInteraction : MonoBehaviour
+public class Chest_interaction : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -12,6 +12,11 @@ public class ChestInteraction : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         
     }
