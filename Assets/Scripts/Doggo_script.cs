@@ -38,5 +38,18 @@ public class Doggo_script : MonoBehaviour
         return m_hit.collider != null;
     }
 
+    /*private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(gameObject.CompareTag("Pickup"))
+        {
+            bool isPickedUp = Inventory_script.instance.Add_item(GetComponent<Pickup>().pickup);
+            if (isPickedUp)
+            {
+                gameObject.SetActive(false);
+                Debug.Log("Picked up item");
+            }
+        }
+
+    }*/
 
 }
