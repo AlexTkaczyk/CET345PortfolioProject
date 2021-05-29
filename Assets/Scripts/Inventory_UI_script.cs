@@ -21,11 +21,14 @@ public class Inventory_UI_script : MonoBehaviour
             if (i < Inventory_script.instance.pickup_list.Count)
             {
                 pickup_slots[i].Add_pickup(Inventory_script.instance.pickup_list[i]);
+                
             }
+
             else
             {
                 pickup_slots[i].Clear_slot();
-            }
+            } 
+            //Debug.Log(pickup_slots[i].amount_text.text = Inventory_script.instance.pickup_list.Count.ToString());
         }
     }
 }

@@ -6,6 +6,7 @@ public class Pickup : MonoBehaviour
 {
     public Pickup_scriptableObject pickup;
     public GameObject chicken;
+    Inventory_slot_script slots;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,7 +16,8 @@ public class Pickup : MonoBehaviour
             bool isPickedUp = Inventory_script.instance.Add_item(GetComponent<Pickup>().pickup);
             if (isPickedUp)
             {
-                Debug.Log("Picked up item");
+                //Debug.Log("Picked up item");
+                Debug.Log(pickup.pickup_amount.ToString());
                 Destroy(chicken);
                 
             }
