@@ -6,7 +6,6 @@ using UnityEngine;
 public class Ability_scriptableObject : ScriptableObject
 {
     public string ability_name = "New Ability";
-    public Sprite ability_icon = null;
 
     public virtual void Use()
     {

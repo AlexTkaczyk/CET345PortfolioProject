@@ -30,7 +30,18 @@ public class Inventory_slot_script : MonoBehaviour
     {
         if (pickup != null)
         {
+            if(pickup.pickup_name == "Chicken Leg")
+            {
+                Debug.Log("ChickenLeg");
+            }
 
+            if (pickup.pickup_name == "Growth Serum")
+            {
+                Debug.Log("Serum");
+            }
         }
     }
+
+
+        
 }

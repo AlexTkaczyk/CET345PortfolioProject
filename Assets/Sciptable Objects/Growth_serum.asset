@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Growth_serum
   m_EditorClassIdentifier: 
   pickup_name: Growth Serum
-  pickup_icon: {fileID: 0}
+  pickup_icon: {fileID: 21300000, guid: ac25a6d02605eef4a802c904a0ac12fd, type: 3}
+  pickup_amount: 1
