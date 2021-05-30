@@ -34,7 +34,7 @@ public class Doggo_script : MonoBehaviour
     private bool isGrounded()
     {
         RaycastHit2D m_hit = Physics2D.BoxCast(bx_coll.bounds.center, bx_coll.bounds.size, 0f, Vector2.down, .1f, m_platforms);
-        Debug.Log(m_hit.collider);
+        //Debug.Log(m_hit.collider);
         return m_hit.collider != null;
     }
 
