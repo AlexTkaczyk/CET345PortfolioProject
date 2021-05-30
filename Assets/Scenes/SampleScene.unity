@@ -3002,6 +3002,7 @@ GameObject:
   - component: {fileID: 1617033060}
   - component: {fileID: 1617033059}
   - component: {fileID: 1617033063}
+  - component: {fileID: 1617033064}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3104,6 +3105,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slots_parent: {fileID: 700534693}
+--- !u!114 &1617033064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617033058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0e7b46c878da24c9926cde4f49451f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_name: {fileID: 123400417}
+  player_name_data: {fileID: 11400000, guid: c4aa2d17d75f2cc4f900cd11b09e4c80, type: 2}
 --- !u!1001 &1651225049
 PrefabInstance:
   m_ObjectHideFlags: 0
