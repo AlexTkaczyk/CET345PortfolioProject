@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public Enemy_scriptableObject enemy;
+    //public Enemy_scriptableObject enemy;
+    public int enemy_health;
 }

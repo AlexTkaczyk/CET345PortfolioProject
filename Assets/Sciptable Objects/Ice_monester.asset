@@ -12,5 +12,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d8991b4437fdd428f7cd910facb7c2, type: 3}
   m_Name: Ice_monester
   m_EditorClassIdentifier: 
-  enemy_name: Ice Monster
-  enemy_health: 50
