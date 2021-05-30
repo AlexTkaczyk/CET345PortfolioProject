@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Bird
   m_EditorClassIdentifier: 
   enemy_name: Bird
-  enemy_health: 0
+  enemy_health: 10

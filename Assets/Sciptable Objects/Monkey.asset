@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a496ebf768fd2134d94b53059b64cf9b, type: 3}
-  m_Name: Tail_wag_storm
+  m_Script: {fileID: 11500000, guid: 04d8991b4437fdd428f7cd910facb7c2, type: 3}
+  m_Name: Monkey
   m_EditorClassIdentifier: 
-  ability_name: Tail wag of Storm
-  ability_damage: 15
+  enemy_name: Monkey
+  enemy_health: 45

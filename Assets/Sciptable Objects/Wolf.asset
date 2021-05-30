@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Wolf
   m_EditorClassIdentifier: 
   enemy_name: Wolf
-  enemy_health: 0
+  enemy_health: 25
