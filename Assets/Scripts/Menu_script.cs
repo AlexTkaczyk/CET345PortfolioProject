@@ -9,4 +9,9 @@ public class Menu_script : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void Quit_game()
+    {
+        Application.Quit();
+    }
 }
