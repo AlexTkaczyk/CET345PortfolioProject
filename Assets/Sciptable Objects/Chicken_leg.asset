@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickup_name: Chicken Leg
   pickup_icon: {fileID: 21300000, guid: d8bd4759a8b95ad4697a023aabc26245, type: 3}
-  pickup_amount: 3
+  pickup_amount: 1

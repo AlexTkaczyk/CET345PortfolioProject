@@ -7,7 +7,6 @@ public class Ability : MonoBehaviour
     public Ability_scriptableObject ability;
     public Enemy[] enemy;
     public GameObject player;
-    public AudioSource ability_audio;
     public Animator animator;
     public void UseAbility()
     {
@@ -16,46 +15,36 @@ public class Ability : MonoBehaviour
             if (ability.ability_name == "Mighty Bork")
             {
                 Debug.Log("Mighty Bork");
-                ability_audio.Play();
-                ability.ability_damage = Random.Range(0, 25);
+                ability.ability_damage = Random.Range(0, 35);
                 enemy[0].enemy_health -= ability.ability_damage;
-                if(enemy[0].enemy_health <= 0)
+                if (enemy[0].enemy_health <= 0)
                 {
                     StartCoroutine(Ice_death_animation());
                 }
-
-                Debug.Log(enemy[0].enemy_health);
             }
 
             if (ability.ability_name == "Growl of Fear")
             {
                 Debug.Log("Growl of Fear");
-                ability_audio.Play();
-                ability.ability_damage = Random.Range(0, 15);
+                ability.ability_damage = Random.Range(0, 20);
                 enemy[0].enemy_health -= ability.ability_damage;
                 if (enemy[0].enemy_health <= 0)
                 {
                     StartCoroutine(Monkey_death_animation());
                 }
-
-                Debug.Log(enemy[0].enemy_health);
             }
 
             if (ability.ability_name == "Tail wag of Storm")
             {
                 Debug.Log("Tail wag Storm");
-                ability_audio.Play();
-                ability.ability_damage = Random.Range(0, 35);
+                ability.ability_damage = Random.Range(0, 25);
                 enemy[0].enemy_health -= ability.ability_damage;
                 if (enemy[0].enemy_health <= 0)
                 {
                     StartCoroutine(Fire_death_animation());
                 }
-
-                Debug.Log(enemy[0].enemy_health);
             }
         }
-        
 
     }
      IEnumerator Ice_death_animation()

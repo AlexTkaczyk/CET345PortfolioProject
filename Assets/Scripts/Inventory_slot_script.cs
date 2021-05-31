@@ -39,12 +39,17 @@ public class Inventory_slot_script : MonoBehaviour
                 Debug.Log("ChickenLeg");
             }
 
-            if (pickup.pickup_name == "Growth Serum")
+            if (Vector3.Distance(enemy.transform.position, doggo.transform.position) < 4)
             {
-                Debug.Log("Serum");
-                audio_src.Play();
-                StartCoroutine(Doggo_scale_Animation_cooldown());
+                if (pickup.pickup_name == "Growth Serum")
+                {
+                    Clear_slot();
+                    Debug.Log("Serum");
+                    audio_src.Play();
+                    StartCoroutine(Doggo_scale_Animation_cooldown());
+                }
             }
+
         }
     }
 
