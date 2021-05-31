@@ -7,43 +7,76 @@ public class Ability : MonoBehaviour
     public Ability_scriptableObject ability;
     public Enemy[] enemy;
     public GameObject player;
-    public AudioSource bark;
+    public AudioSource ability_audio;
+    public Animator animator;
     public void UseAbility()
     {
-       if(Vector3.Distance(enemy[0].transform.position, player.transform.position) < 5) 
+       if(enemy[0] != null && Vector3.Distance(enemy[0].transform.position, player.transform.position) < 6) 
        {
             if (ability.ability_name == "Mighty Bork")
             {
                 Debug.Log("Mighty Bork");
-                bark.Play();
-                //enemy_obj.enemy_health += enemy_obj.enemy_health - ability.ability_damage;
-                //Debug.Log(enemy_obj.enemy_health - ability.ability_damage);
+                ability_audio.Play();
+                ability.ability_damage = Random.Range(0, 25);
                 enemy[0].enemy_health -= ability.ability_damage;
                 if(enemy[0].enemy_health <= 0)
                 {
-                    Destroy(enemy[0].gameObject);
+                    StartCoroutine(Ice_death_animation());
                 }
 
                 Debug.Log(enemy[0].enemy_health);
             }
-       }
-        
-        /*if (ability.ability_name == "Growl of Fear")
-        {
-            Debug.Log("Growl of Fear");
-        }*/
 
-        if (ability.ability_name == "Tail wag of Storm")
-        {
-            Debug.Log("Tail wag Storm");
-            enemy[0].enemy_health -= ability.ability_damage;
-            if (enemy[0].enemy_health <= 0)
+            if (ability.ability_name == "Growl of Fear")
             {
-                Destroy(enemy[0].gameObject);
+                Debug.Log("Growl of Fear");
+                ability_audio.Play();
+                ability.ability_damage = Random.Range(0, 15);
+                enemy[0].enemy_health -= ability.ability_damage;
+                if (enemy[0].enemy_health <= 0)
+                {
+                    StartCoroutine(Monkey_death_animation());
+                }
+
+                Debug.Log(enemy[0].enemy_health);
             }
 
-            Debug.Log(enemy[0].enemy_health);
+            if (ability.ability_name == "Tail wag of Storm")
+            {
+                Debug.Log("Tail wag Storm");
+                ability_audio.Play();
+                ability.ability_damage = Random.Range(0, 35);
+                enemy[0].enemy_health -= ability.ability_damage;
+                if (enemy[0].enemy_health <= 0)
+                {
+                    StartCoroutine(Fire_death_animation());
+                }
+
+                Debug.Log(enemy[0].enemy_health);
+            }
         }
+        
 
     }
+     IEnumerator Ice_death_animation()
+     {
+        animator.Play("Ice_monster_death_animation");
+        yield return new WaitForSeconds(3);
+        Destroy(enemy[0].gameObject);
+     }
+
+    IEnumerator Fire_death_animation()
+    {
+        animator.Play("Fire_bird_death_animation");
+        yield return new WaitForSeconds(3);
+        Destroy(enemy[0].gameObject);
+    }
+
+    IEnumerator Monkey_death_animation()
+    {
+        animator.Play("Monkey_death_animation");
+        yield return new WaitForSeconds(3);
+        Destroy(enemy[0].gameObject);
+    }
+
 }

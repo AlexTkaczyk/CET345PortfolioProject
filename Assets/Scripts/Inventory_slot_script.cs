@@ -9,6 +9,10 @@ public class Inventory_slot_script : MonoBehaviour
     Pickup_scriptableObject pickup;
     public Image pickup_icon;
     public TextMeshProUGUI amount_text;
+    public GameObject doggo;
+    public Animator animator;
+    public AudioSource audio_src;
+    public Enemy enemy;
 
     //public int index;
     public void Add_pickup(Pickup_scriptableObject new_pickup)
@@ -38,10 +42,21 @@ public class Inventory_slot_script : MonoBehaviour
             if (pickup.pickup_name == "Growth Serum")
             {
                 Debug.Log("Serum");
+                audio_src.Play();
+                StartCoroutine(Doggo_scale_Animation_cooldown());
             }
         }
     }
 
+    IEnumerator Doggo_scale_Animation_cooldown()
+    {
+        doggo.transform.localScale = new Vector3(2f, 2f, 1f);
+        yield return new WaitForSeconds(2);
+        animator.Play("Wolf_scared_animation");
+        yield return new WaitForSeconds(3);
+        Destroy(enemy.gameObject);
+        doggo.transform.localScale = new Vector3(0.8f, 0.8f, 1f);
+    }
 
-        
+
 }

@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 19d362502d0d26c4bb87718b79750970
+guid: 46d5bd43c5d17164da5e9246fcd898ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7444046612802208997
-    second: wolf_0
+      213: 2615922058952341971
+    second: Ice_monster_0
   - first:
-      213: -6836296053957781073
-    second: wolf_1
+      213: 4051454203883283475
+    second: Ice_monster_1
+  - first:
+      213: 7302440033585475748
+    second: Ice_monster_0
+  - first:
+      213: -5227640593449427795
+    second: Ice_monster_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -131,43 +137,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wolf_0
+      name: Ice_monster_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 256
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e4868f34f09e4760800000000000000
-      internalID: 7444046612802208997
+      spriteID: 4a03473458a775560800000000000000
+      internalID: 7302440033585475748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wolf_1
+      name: Ice_monster_1
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 256
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa9117c85f89021a0800000000000000
-      internalID: -6836296053957781073
+      spriteID: dacd806d390b377b0800000000000000
+      internalID: -5227640593449427795
       vertices: []
       indices: 
       edges: []

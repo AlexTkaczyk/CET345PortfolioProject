@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 8b102b580fb2d17498f6017bbad07db0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8012626686966436141
+    second: Ice monster clone_0
+  - first:
+      213: -1244505148315049704
+    second: Ice monster clone_1
+  - first:
+      213: -3544081976476993537
+    second: Ice monster clone_2
+  - first:
+      213: 3531996698271174828
+    second: Ice monster clone_3
+  - first:
+      213: 2782308568551275903
+    second: Ice monster clone_4
+  - first:
+      213: -4768567782243686289
+    second: Ice monster clone_5
+  - first:
+      213: 6348911509574826232
+    second: Ice monster clone_6
+  - first:
+      213: 1709354100472387249
+    second: Ice monster clone_7
+  - first:
+      213: -1312752341666847945
+    second: Ice monster clone_8
+  - first:
+      213: -3717731874707519399
+    second: Ice monster clone_9
+  - first:
+      213: -3007516898373575592
+    second: Ice monster clone_10
+  - first:
+      213: -3281217368563411838
+    second: Ice monster clone_11
+  - first:
+      213: 7123307142937533062
+    second: Ice monster clone_12
+  - first:
+      213: 8737193784904631708
+    second: Ice monster clone_13
+  - first:
+      213: -8892480033265302701
+    second: Ice monster clone_14
+  - first:
+      213: 3803198280476092765
+    second: Ice monster clone_15
+  - first:
+      213: 9083002907506769596
+    second: Ice monster clone_16
+  - first:
+      213: 5558034277699235306
+    second: Ice monster clone_17
+  - first:
+      213: 3740637146583948106
+    second: Ice monster clone_18
+  - first:
+      213: -3127189797604696727
+    second: Ice monster clone_19
+  - first:
+      213: 6772054991842903547
+    second: Ice monster clone_20
+  - first:
+      213: 829058523184052746
+    second: Ice monster clone_21
+  - first:
+      213: -5939300493768286623
+    second: Ice monster clone_22
+  - first:
+      213: -78541518620808720
+    second: Ice monster clone_23
+  - first:
+      213: 6939048949047974445
+    second: Ice monster clone_24
+  - first:
+      213: 1177824448498970623
+    second: Ice monster clone_25
+  - first:
+      213: -3440745922670586042
+    second: Ice monster clone_26
+  - first:
+      213: 7167839020373676982
+    second: Ice monster clone_27
+  - first:
+      213: -2640901211724958339
+    second: Ice monster clone_28
+  - first:
+      213: 3578784932124334999
+    second: Ice monster clone_29
+  - first:
+      213: 1553265238137449071
+    second: Ice monster clone_30
+  - first:
+      213: -4146199566564051140
+    second: Ice monster clone_31
+  - first:
+      213: -6363613777437550897
+    second: Ice monster clone_32
+  - first:
+      213: -4623461809693889371
+    second: Ice monster clone_33
+  - first:
+      213: -9181152672198773657
+    second: Ice monster clone_34
+  - first:
+      213: -5727371487605753660
+    second: Ice monster clone_35
+  - first:
+      213: 4976419670415589444
+    second: Ice monster clone_36
+  - first:
+      213: -9146572829154333077
+    second: Ice monster clone_37
+  - first:
+      213: -1281455700470495870
+    second: Ice monster clone_38
+  - first:
+      213: 173698429132892662
+    second: Ice monster clone_39
+  - first:
+      213: 5522904577338327014
+    second: Ice monster clone_40
+  - first:
+      213: 1148585032977233894
+    second: Ice monster clone_41
+  - first:
+      213: -1530595084252815206
+    second: Ice monster clone_42
+  - first:
+      213: 5458623931450518037
+    second: Ice monster clone_43
+  - first:
+      213: 8952386986395152066
+    second: Ice monster clone_44
+  - first:
+      213: 8832484719817613538
+    second: Ice monster clone_45
+  - first:
+      213: -6426359419428165902
+    second: Ice monster clone_46
+  - first:
+      213: -5786957541559559149
+    second: Ice monster clone_47
+  - first:
+      213: 633694624889330286
+    second: Ice monster clone_48
+  - first:
+      213: 8159541347340233866
+    second: Ice monster clone_49
+  - first:
+      213: -3477727950763075891
+    second: Ice monster clone_50
+  - first:
+      213: 3215791763509510678
+    second: Ice monster clone_51
+  - first:
+      213: -6289409672475165493
+    second: Ice monster clone_52
+  - first:
+      213: -6161914248621314496
+    second: Ice monster clone_53
+  - first:
+      213: -3675601472447010778
+    second: Ice monster clone_54
+  - first:
+      213: -7006062451365801097
+    second: Ice monster clone_55
+  - first:
+      213: -3670299357664811129
+    second: Ice monster clone_56
+  - first:
+      213: 1757708212219245484
+    second: Ice monster clone_57
+  - first:
+      213: 7790973593123175912
+    second: Ice monster clone_58
+  - first:
+      213: 1665647647949737930
+    second: Ice monster clone_59
+  - first:
+      213: 2800121595121601055
+    second: Ice monster clone_60
+  - first:
+      213: -2391955159474389046
+    second: Ice monster clone_61
+  - first:
+      213: 8727899530057662342
+    second: Ice monster clone_62
+  - first:
+      213: -2343459888445461410
+    second: Ice monster clone_63
+  - first:
+      213: -8886697595784219767
+    second: Ice monster clone_64
+  - first:
+      213: -7587561648807475651
+    second: Ice monster clone_65
+  - first:
+      213: -8802220761409141174
+    second: Ice monster clone_66
+  - first:
+      213: 7749213176685504638
+    second: Ice monster clone_67
+  - first:
+      213: -5286182261407210616
+    second: Ice monster clone_68
+  - first:
+      213: -305759579716901189
+    second: Ice monster clone_69
+  - first:
+      213: 8552150757148208254
+    second: Ice monster clone_70
+  - first:
+      213: -7018390231379013138
+    second: Ice monster clone_71
+  - first:
+      213: 3703113482820423523
+    second: Ice monster clone_72
+  - first:
+      213: 1880645464910259382
+    second: Ice monster clone_73
+  - first:
+      213: 8333431129370695695
+    second: Ice monster clone_74
+  - first:
+      213: -7379164806136561028
+    second: Ice monster clone_75
+  - first:
+      213: -5193240414592976250
+    second: Ice monster clone_76
+  - first:
+      213: 6169407203469418875
+    second: Ice monster clone_77
+  - first:
+      213: 6292220037920349316
+    second: Ice monster clone_78
+  - first:
+      213: -6687908128786852805
+    second: Ice monster clone_79
+  - first:
+      213: 4724114969760017764
+    second: Ice monster clone_80
+  - first:
+      213: -8050484905394205277
+    second: Ice monster clone_81
+  - first:
+      213: 7734760145185413813
+    second: Ice monster clone_82
+  - first:
+      213: 1843924283861530307
+    second: Ice monster clone_83
+  - first:
+      213: -3092741966742798576
+    second: Ice monster clone_84
+  - first:
+      213: -8885975960709375443
+    second: Ice monster clone_85
+  - first:
+      213: -6788140354461622234
+    second: Ice monster clone_86
+  - first:
+      213: -2857238572925387560
+    second: Ice monster clone_87
+  - first:
+      213: -3940950413155622640
+    second: Ice monster clone_88
+  - first:
+      213: 1674883638627383379
+    second: Ice monster clone_89
+  - first:
+      213: -8699948593817976838
+    second: Ice monster clone_90
+  - first:
+      213: -1516823654952598773
+    second: Ice monster clone_91
+  - first:
+      213: 8103673381735931406
+    second: Ice monster clone_92
+  - first:
+      213: -7556040287677051301
+    second: Ice monster clone_93
+  - first:
+      213: 8932702436873004954
+    second: Ice monster clone_94
+  - first:
+      213: -8117779990938999678
+    second: Ice monster clone_95
+  - first:
+      213: -2431979723195696192
+    second: Ice monster clone_96
+  - first:
+      213: -1072874663463225030
+    second: Ice monster clone_97
+  - first:
+      213: -4886393818752879386
+    second: Ice monster clone_98
+  - first:
+      213: -2115681345520656763
+    second: Ice monster clone_99
+  - first:
+      213: 7497276565316809007
+    second: Ice monster clone_100
+  - first:
+      213: 6221562361218915626
+    second: Ice monster clone_101
+  - first:
+      213: -3852010467993697557
+    second: Ice monster clone_102
+  - first:
+      213: 4245592299550474103
+    second: Ice monster clone_103
+  - first:
+      213: -5707995333217731871
+    second: Ice monster clone_104
+  - first:
+      213: 2596942507552830202
+    second: Ice monster clone_105
+  - first:
+      213: 1703916504555773751
+    second: Ice monster clone_106
+  - first:
+      213: -3262569695528590126
+    second: Ice monster clone_107
+  - first:
+      213: -1629587989646741182
+    second: Ice monster clone_108
+  - first:
+      213: 5961710508964863276
+    second: Ice monster clone_109
+  - first:
+      213: 5542409622776620356
+    second: Ice monster clone_110
+  - first:
+      213: 6180916166076085728
+    second: Ice monster clone_0
+  - first:
+      213: -1480949069228485591
+    second: Ice monster clone_1
+  - first:
+      213: -6087030267355243431
+    second: Ice monster clone_2
+  - first:
+      213: -5638067361319556750
+    second: Ice monster clone_3
+  - first:
+      213: -4334997079324867663
+    second: Ice monster clone_4
+  - first:
+      213: 2507338306362476655
+    second: Ice monster clone_5
+  - first:
+      213: -2981428628026169686
+    second: Ice monster clone_6
+  - first:
+      213: -7711119672553323172
+    second: Ice monster clone_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ice monster clone_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e53f61518607c550800000000000000
+      internalID: 6180916166076085728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice monster clone_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d03efaac927be0800000000000000
+      internalID: -1480949069228485591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice monster clone_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c5d39e836868ba0800000000000000
+      internalID: -6087030267355243431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice monster clone_3
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279e2dc4b9f81c1b0800000000000000
+      internalID: -5638067361319556750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice monster clone_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b34c78cf1ff6d3c0800000000000000
+      internalID: -4334997079324867663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice monster clone_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68077ab7eadbc220800000000000000
+      internalID: 2507338306362476655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice monster clone_6
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6e1578576df96d0800000000000000
+      internalID: -2981428628026169686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice monster clone_7
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 256
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55cee853899cf490800000000000000
+      internalID: -7711119672553323172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
